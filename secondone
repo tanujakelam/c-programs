@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main()
+{
+int n,r,sum=0,p=1;
+scanf("%d",&n);
+while(a>0)
+{
+r=n%10;
+sum=aum+r;
+p=p*r;
+n=n/10;
+}
+printf("%d\n",sum);
+printf("%d",p);
+return 0;
+}
