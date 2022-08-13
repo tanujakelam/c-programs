@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+char ch='A';
+ch1='a';
+int i,j;
+int n;
+printf("enter your n value");
+scanf("%d,&n);
+for(i=1;i<n;i++)
+{
+for(j=1;j,=i;j++)
+{
+printf("%c%c ",ch,ch1);
+}
+printf("/n");
+ch++;
+ch1++;
+}
+return 0;
+}
