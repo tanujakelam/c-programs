@@ -1,0 +1,23 @@
+
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+ char s[20],s1[20];
+ int i,j,n,count=0;
+ printf("Enter string");
+scanf("%s",s);
+ printf("Enter string");
+ scanf("%s",s1);
+ for(i=0;s[i]!='\0';i++)
+
+ { for(j=0;s1[j]!='\0';j++)
+    { if(s[i]==s1[j])
+  count++;
+    }
+ }
+ if(count==strlen(s))
+ printf("anagram");
+ else
+ printf("not anageram");
+}
