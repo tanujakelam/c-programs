@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include<string.h>
+
+int main() {
+    int a[9]={0},i;
+    char *s;
+    s=(char*)malloc(1000*sizeof(char));
+    gets(s);
+    for(i=0;s[i]!='\0';i++)
+    {
+        if(s[i]>='0'&&s[i]<='9')
+        a[s[i]-48]++;
+    }
+    for(i=0;i<=9;i++)
+    {
+        printf("%d",a[i]);
+        
+    }
+    free(s);
+    return 0;
+}
